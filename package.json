@@ -1,15 +1,15 @@
 {
-    "name": "osc",
+    "name": "osc-electron",
     "main": "src/platforms/osc-node.js",
     "version": "1.3.0",
     "description": "A JavaScript Open Sound Control (OSC) library that works in Node.js and the browser.",
     "author": "Colin Clark",
-    "homepage": "https://github.com/colinbdclark/osc.js",
+    "homepage": "https://github.com/jean-emmanuel/osc-electron.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/colinbdclark/osc.js.git"
+        "url": "https://github.com/jean-emmanuel/osc-electron.js"
     },
-    "bugs": "https://github.com/colinbdclark/osc.js/issues",
+    "bugs": "https://github.com/jean-emmanuel/osc-electron.js/issues",
     "license": "(MIT OR GPL-2.0)",
     "keywords": [
         "Open Sound Control",
@@ -36,7 +36,7 @@
     "dependencies": {
         "buffer-dataview": "0.0.2",
         "long": "2.2.5",
-        "serialport": "1.7.4",
+        "serialport-electron": "1.7.4-temp",
         "slip": "1.0.2",
         "ws": "0.7.2"
     }

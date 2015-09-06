@@ -43,7 +43,7 @@
     };
 
     var dgram = require("dgram"),
-        serialport = require("serialport"),
+        serialport = require("serialport-electron"),
         net = require("net"),
         WebSocket = require("ws"),
         modules = requireModules(["../osc.js", "../osc-transports.js"]),
