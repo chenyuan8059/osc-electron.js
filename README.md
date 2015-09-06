@@ -1,3 +1,5 @@
+This is a fork from Colin Clark's osc.js for Electron. The only thing that changes is serialport@1.7.4 dependency moved to serialport-electron@1.7.4-temp (https://github.com/voodootikigod/node-serialport)
+
 osc.js
 ======
 
